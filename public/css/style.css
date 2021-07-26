@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+/* Pagina Inicial */
+.logo{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+    z-index: 1;
+}
+
+.logo > h3{
+    font-family: 'Otomanopee One', sans-serif;
+    margin-left: 50px;
+}
+
+.menu{
+    position: fixed;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    top: 95px;
+    width: 30%;
+    height: 75vh;
+    background-color: rgb(119, 117, 116);
+    border-radius: 10%;
+    box-shadow: 0 5px 5px 0 rgba(1, 1, 1, 0.6);
+    color: #fff;
+    font-family: 'Otomanopee One', sans-serif;
+    list-style: none;
+    z-index: 1;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-item > li > a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Otomanopee One', sans-serif;
+    text-decoration: none;
+}
+
+.menu-item > li > a:hover{
+    color: skyblue;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+.principal{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: rgb(20, 35, 247);
+}
+
+.card-inicio {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 105px;
+    right: 20px;
+    width: 60%;
+    height: 75vh;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.inicio-geral {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 20px;
+}
+.inicio-valor-geral1{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 24px;
+}
+.inicio-valor-geral2{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 84px;
+}
+
+.inicio-valor-geral3{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 178px;
+}
+
+.inicio-valor-geral4{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 238px;
+}
+
+.inicio-valor-geral5{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 331px;
+}
+
+.inicio-valor-geral6{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+    left: 280px;
+    top: 391px;
+}
+
+.total-dia {
+    position: absolute;
+    right: 160px;
+    top: 47px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 30%;
+    height: 50px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
+.total-dia-valor{
+    position: absolute;
+    right: 35px;
+    top: 47px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
+.total-mensal {
+    position: absolute;
+    right: 160px;
+    top: 203px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 30%;
+    height: 50px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
+.total-mensal-valor {
+    position: absolute;
+    right: 35px;
+    top: 203px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
+.deve-total{
+    position: absolute;
+    right: 160px;
+    top: 356px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 30%;
+    height: 50px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
+.deve-total-valor{
+    position: absolute;
+    right: 35px;
+    top: 356px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 200 bold;
+    color: #fff;
+    width: 15%;
+    height: 50px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(2, 117, 170);
+}
+
